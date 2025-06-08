@@ -1,3 +1,5 @@
+package models;
+
 public abstract class Film {
     private int id;
     private String title;

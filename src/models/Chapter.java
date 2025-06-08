@@ -1,3 +1,5 @@
+package models;
+
 public class Chapter {
     private int id;
     private String title;

@@ -1,3 +1,5 @@
+package models;
+
 public class Movie extends Film {
     private int id;
     private int timeViewed;
