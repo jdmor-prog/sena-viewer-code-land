@@ -1,4 +1,5 @@
 import java.util.Date;
+
 public class Book extends Publication {
     private int id;
     private String isbn;
