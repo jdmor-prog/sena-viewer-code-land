@@ -3,11 +3,11 @@ public abstract class Film {
     private String title;
     private String genre;
     private String creator;
-    private String duration;
+    private int duration;
     private short year;
     private boolean viewed;
 
-    public Film(String title, String genre, String creator, String duration) {
+    public Film(String title, String genre, String creator, int duration) {
         this.title = title;
         this.genre = genre;
         this.creator = creator;
@@ -46,11 +46,11 @@ public abstract class Film {
         this.creator = creator;
     }
 
-    public String getDuration() {
+    public int getDuration() {
         return duration;
     }
 
-    public void setDuration(String duration) {
+    public void setDuration(int duration) {
         this.duration = duration;
     }
 
