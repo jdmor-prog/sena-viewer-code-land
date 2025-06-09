@@ -89,6 +89,7 @@ public class Main {
                     System.out.println(book_2);
                     System.out.println(magazine);
                     System.out.println(magazine_2);
+                    break;
                 case 6:
                     System.out.println("\nReporte del día");
                     System.out.println("Películas vistas: " + contadorPeliculas);
