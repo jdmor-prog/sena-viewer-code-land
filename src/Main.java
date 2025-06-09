@@ -105,5 +105,6 @@ public class Main {
 
         } while (categoria != 7);
 
+        scanner.close();
     }
 }
