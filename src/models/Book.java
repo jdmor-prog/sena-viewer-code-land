@@ -8,8 +8,9 @@ public class Book extends Publication {
     private boolean readed;
     private int timeReaded;
 
-    public Book(String title, Date editionDate, String editorial, String isbn) {
+    public Book(String title, String editionDate, String editorial, String isbn) {
         super(title, editionDate, editorial);
+        this.isbn = isbn;
     }
 
     public int getId() {
